@@ -26,7 +26,9 @@ This extension enables proper syntax highlighting for CUE (Configure, Unify, Exe
 2. Or install manually by cloning this repository and running:
    ```bash
    npm install
-   vsce package
+   npm run compile
+   npm run package
+   // install ./vscode-cue-in-markdown-0.1.0.vsix extension
    ```
 
 ## Usage
