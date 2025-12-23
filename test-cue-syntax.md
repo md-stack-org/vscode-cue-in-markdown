@@ -98,7 +98,7 @@ invalid: {
 ## Operators and Keywords
 
 ```cue
-
+// Go to declaration works also
 val: #GenericType
 // Logical operators
 condition: true && false || (x == y)
