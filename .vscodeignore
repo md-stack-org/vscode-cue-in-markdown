@@ -1,0 +1,9 @@
+**/node_modules
+**/.git
+**/.vscode
+**/test-cue-syntax.md
+**/.vscodeignore
+**/tsconfig.json
+**/README.md
+**/package-lock.json
+**/*.map

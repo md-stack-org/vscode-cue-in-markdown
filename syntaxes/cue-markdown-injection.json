@@ -1,0 +1,26 @@
+{
+  "scopeName": "source.cue",
+  "injectionSelector": "L:text.html.markdown",
+  "patterns": {
+    "fenced_code_block": {
+      "begin": "^```cue$",
+      "end": "^```$",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.markdown"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.markdown"
+        }
+      },
+      "contentName": "source.cue",
+      "patterns": [
+        {
+          "include": "source.cue"
+        }
+      ]
+    }
+  }
+}

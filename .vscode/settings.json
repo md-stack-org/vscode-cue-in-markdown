@@ -1,0 +1,78 @@
+{
+  "files.associations": {
+    "*.cue": "cue"
+  },
+  "markdown.experimental.syntaxHighlighting": true,
+  "[markdown]": {
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "source.cue",
+          "settings": {
+            "foreground": "#D4D4D4"
+          }
+        },
+        {
+          "scope": "comment.line.double-slash.cue",
+          "settings": {
+            "foreground": "#6a9955"
+          }
+        },
+        {
+          "scope": "comment.block.cue",
+          "settings": {
+            "foreground": "#6a9955"
+          }
+        },
+        {
+          "scope": "string.quoted.double.cue",
+          "settings": {
+            "foreground": "#ce9178"
+          }
+        },
+        {
+          "scope": "constant.numeric.cue",
+          "settings": {
+            "foreground": "#b5cea8"
+          }
+        },
+        {
+          "scope": "keyword.control.cue",
+          "settings": {
+            "foreground": "#569cd6"
+          }
+        },
+        {
+          "scope": "keyword.operator.cue",
+          "settings": {
+            "foreground": "#d4d4d4"
+          }
+        },
+        {
+          "scope": "support.type.cue",
+          "settings": {
+            "foreground": "#4ec9b0"
+          }
+        },
+        {
+          "scope": "variable.other.cue",
+          "settings": {
+            "foreground": "#9cdcfe"
+          }
+        },
+        {
+          "scope": "entity.name.namespace.cue",
+          "settings": {
+            "foreground": "#4fc1ff"
+          }
+        },
+        {
+          "scope": "punctuation.definition.struct.begin.cue, punctuation.definition.struct.end.cue",
+          "settings": {
+            "foreground": "#D4D4D4"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "vscode-cue-in-markdown-syntax",
+  "displayName": "CUE Markdown Syntax",
+  "description": "Adds CUE syntax highlighting to Markdown code blocks",
+  "publisher": "smoldevel",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "repository": {
+    "url": "https://github.com/md-stack-org/vscode-cue-in-markdown-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/md-stack-org/vscode-cue-in-markdown-syntax/issues"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "markdown.cue.codeblock",
+        "path": "./syntaxes/cue-injection.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.cue": "source.cue"
+        }
+      }
+    ]
+  }
+}
