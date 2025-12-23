@@ -311,7 +311,7 @@
 				{
 					"patterns": [
 						{
-							"match": "[\\+\\-\\*]|/(?![/*])",
+							"match": "[\\+\\-\\*%]|/(?![/*])",
 							"name": "keyword.operator"
 						},
 						{
@@ -611,6 +611,9 @@
 								},
 								{
 									"include": "#punctuation_comma"
+								},
+								{
+									"include": "#punctuation_colon"
 								},
 								{
 									"include": "#expression"

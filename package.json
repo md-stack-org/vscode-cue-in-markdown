@@ -1,9 +1,9 @@
 {
   "name": "vscode-cue-in-markdown",
-  "displayName": "CUE Markdown Syntax",
+  "displayName": "CUE code block syntax for Markdown",
   "description": "Adds CUE syntax highlighting to Markdown code blocks",
   "publisher": "smoldevel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -28,6 +28,10 @@
         "embeddedLanguages": {
           "meta.embedded.block.cue": "source.cue"
         }
+      },
+      {
+        "scopeName": "source.cue",
+        "path": "./syntaxes/cue.tmLanguage.json"
       }
     ]
   },
