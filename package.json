@@ -3,7 +3,7 @@
   "displayName": "CUE code block syntax for Markdown",
   "description": "Adds CUE syntax highlighting to Markdown code blocks",
   "publisher": "smoldevel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.100.0"
   },
