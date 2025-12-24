@@ -7,6 +7,10 @@ This is a test file to demonstrate CUE syntax highlighting in Markdown code bloc
 ```cue
 package example
 
+// Go to declaration
+valInMD: #GenericTypeInMD
+valInCUE: #GenericTypeInCUE
+
 // This is a comment
 import "list"
 
@@ -98,8 +102,6 @@ invalid: {
 ## Operators and Keywords
 
 ```cue
-// Go to declaration works also
-val: #GenericType
 // Logical operators
 condition: true && false || (x == y)
 

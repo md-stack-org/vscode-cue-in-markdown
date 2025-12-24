@@ -24,6 +24,9 @@ export class CueDefinitionProvider implements vscode.DefinitionProvider {
     }
 
     private isInsideCueBlock(document: vscode.TextDocument, position: vscode.Position): boolean {
+        if (document.fileName.endsWith('.cue')) {
+            return true;
+        }
         let lineIndex = position.line;
         while (lineIndex >= 0) {
             const line = document.lineAt(lineIndex).text;
@@ -43,8 +46,8 @@ export class CueDefinitionProvider implements vscode.DefinitionProvider {
     private async findDefinitionInWorkspace(word: string, token: vscode.CancellationToken): Promise<vscode.Location[]> {
         const locations: vscode.Location[] = [];
 
-        // Find all markdown files in the workspace
-        const files = await vscode.workspace.findFiles('**/*.md', '**/node_modules/**');
+        // Find all markdown and cue files in the workspace
+        const files = await vscode.workspace.findFiles('**/*.{md,cue}', '**/node_modules/**');
 
         for (const file of files) {
             if (token.isCancellationRequested) return [];
