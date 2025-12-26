@@ -3,11 +3,11 @@
   "displayName": "CUE code blocks for Markdown",
   "description": "CUE syntax highlighting to Markdown code blocks",
   "publisher": "md-stack",
-	"categories":[
-		"Programming Languages"
-	],
+  "categories": [
+    "Programming Languages"
+  ],
   "icon": "assets/icon.png",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "engines": {
     "vscode": "^1.100.0"
   },
