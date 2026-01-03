@@ -1,5 +1,5 @@
 package example
 
 #GenericTypeInCUE: {
-    kind: string
+  kind: string
 }

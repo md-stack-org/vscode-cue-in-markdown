@@ -8,7 +8,7 @@ This is a test file to demonstrate CUE syntax highlighting in Markdown code bloc
 package example
 
 #GenericTypeInMD: {
-    kind: string
+  kind: string
 }
 ```
 
